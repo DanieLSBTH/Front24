@@ -1,0 +1,104 @@
+/* Login.css */
+@keyframes background-transition {
+  0% {
+    background-image: url('../images/backgrounds/fondo2.png');
+  }
+  33.33% {
+    background-image: url('../images/backgrounds/fondo3.jpg');
+  }
+  66.66% {
+    background-image: url('../images/backgrounds/fondo5.jpg');
+  }
+  88.88% {
+    background-image: url('../images/backgrounds/fondo7.jpg');
+  }
+  100% {
+    background-image: url('../images/backgrounds/fondo6.png');
+  }
+}
+
+
+.login-outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  animation: background-transition 15s infinite;/* Ajusta la duración y el número de repeticiones según tus preferencias */
+}
+
+.login-inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #000;
+}
+
+.login-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.input-label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
+.input-border {
+  border: 2px solid rgb(0, 0, 0); /* Agrega un borde rojo */
+}
+
+.submit-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #f30000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.forgot-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.forgot-links a {
+  color: #0070f3;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+.create-user-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #0059f3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

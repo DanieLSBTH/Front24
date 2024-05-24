@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* App.css */
+
+.navbar {
+   background-image: url('/src/fondo8.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  height: 100%; /*Agregar esta línea */
+  width: 100%; /* Agregar esta línea */
+  background-color: hsla(0, 0%, 0%, 0.966);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.logo-container {
+  display: flex;
+  align-items: center; /* Centra verticalmente */
+
+}
+.logo {
+  max-width: 100px; /* Ajusta el ancho máximo según sea necesario */
+  height: auto; /* Mantiene la proporción original de la imagen */
+
+}
+.nav-link {
+  color: #fff; /* Color de enlaces en el menú */
+  text-decoration: none; /* Elimina la subrayado de los enlaces */
+  margin-right: 20px; /* Espaciado entre enlaces */
+}
+
+/* Agrega estilos adicionales según tus preferencias */
+
+/* Estilos para el contenido de la página de productos */
+.page-content {
+  padding: 20px; /* Espaciado interior del contenido */
+  background-color: #f4f4f4; /* Color de fondo del contenido */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  margin-right: 20px;
+  text-decoration: none;
+  color: rgb(255, 254, 254);
+}
+
+.logout-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff4d4f; /* Rojo */
+  color: #ffffff; /* Texto blanco */
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #ff2424; /* Rojo más oscuro al pasar el mouse */
+}
+
+.logout-btn .logout-icon {
+  margin-right: 8px; /* Espacio entre el icono y el texto */
+}
+
+.nav-link:hover {
+  background-color: #ff2424;
+}

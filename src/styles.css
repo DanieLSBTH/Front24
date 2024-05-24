@@ -1,0 +1,90 @@
+/* Global styles for typography */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Global styles for layout */
+  header, nav, main, section, article, footer {
+    box-sizing: border-box;
+  }
+  
+  header, nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  article {
+    margin-bottom: 2rem;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  /* Global styles for colors */
+  :root {
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --background: #fff;
+    --text: #333;
+    --border: hsla(0, 0%, 85%, 1);
+  }
+  
+  body {
+    background-color: var(--background);
+    color: var(--text);
+  }
+  
+  a {
+    color: var(--primary);
+  }
+  
+  .item-box {
+    background-color: #fff;
+    margin: 1rem;
+    padding: 2rem;
+    width: 11rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid var(--border);
+  }
+  
+  /* Global styles for spacing */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+  }
