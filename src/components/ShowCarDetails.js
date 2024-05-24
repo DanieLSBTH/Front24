@@ -81,7 +81,7 @@ class ShowCarDetails extends Component {
                 onClick={() => this.openModal(product)}
               >
                 <img
-                  src={`http://localhost:8080/uploads/${product.imagen}`}
+                  src={`https://back-farmacia.onrender.com/uploads/${product.imagen}`}
                   alt={product.producto}
                   style={{
                     width: '100%',
